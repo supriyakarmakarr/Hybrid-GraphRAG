@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# Keys — NEVER commit
+keys/
+*.pem
+
+# Docker volumes
+postgres_data/
+qdrant_data/
+neo4j_data/
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+.coverage
+eval/results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+/tmp/uploads/
+

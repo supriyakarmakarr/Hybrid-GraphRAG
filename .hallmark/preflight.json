@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "target": "frontend app screen",
+  "audience": "GraphRAG workspace users who upload documents and ask grounded questions",
+  "primary_action": "Ask a question about indexed documents",
+  "direction": "modern-minimal, inferred from GraphRAG developer-tool context; theme tooling unavailable",
+  "material": {
+    "real": [
+      "Existing FastAPI routes for auth, upload/status, and query",
+      "Existing GraphRAG workspace UI and product name"
+    ],
+    "pictures": ["Product UI rendered in React"],
+    "absent": ["No customer quotes, external logos, or user-provided screenshots"]
+  },
+  "preserved": ["Bearer auth wiring", "API route paths", "upload and answer interactions"],
+  "introduced": ["Tokenized visual system", "API health status on sign-in", "focus and reduced-motion support"],
+  "limitations": ["Docker Compose is not installed in this environment", "Hallmark reference files and scripts are not present in the installed skill folder"]
+}
